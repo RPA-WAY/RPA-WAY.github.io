@@ -1,0 +1,492 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="RPA Workbench.exe" version="1.0.0.6" publicKeyToken="700a425da2df0183" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Resources\Application Icons\Alecive-Flatwoken-Apps-Ide.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="RPA Workbench" version="1.0.0.3" language="neutral" processorArchitecture="msil" />
+    <commandLine file="RPA Workbench.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ActiproSoftware.Charts.Wpf.dll" size="377344">
+      <assemblyIdentity name="ActiproSoftware.Charts.Wpf" version="20.1.1.0" publicKeyToken="36FF2196AB5654B9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>h80PVjAsj0WSdjyDzUtmNPiKSXTUxRby41TJ7AA/FRo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ActiproSoftware.DataGrid.Contrib.Wpf.dll" size="86016">
+      <assemblyIdentity name="ActiproSoftware.DataGrid.Contrib.Wpf" version="20.1.1.0" publicKeyToken="36FF2196AB5654B9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>F5ZHej4LVXg6Tz+DxVk9+IvQL+7nDQfjsL3w+iIIFpI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ActiproSoftware.Docking.Wpf.dll" size="791552">
+      <assemblyIdentity name="ActiproSoftware.Docking.Wpf" version="20.1.1.0" publicKeyToken="36FF2196AB5654B9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ZkVQkWTHC74gOHRpcmnLZGpDGeoMVGqxpPp3Qj2iE/w=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ActiproSoftware.Editors.Interop.DataGrid.Wpf.dll" size="96768">
+      <assemblyIdentity name="ActiproSoftware.Editors.Interop.DataGrid.Wpf" version="20.1.1.0" publicKeyToken="36FF2196AB5654B9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ue4T+3h5n9Vwx22ehobhuvnpv+KHjVHv4U5Sck3rkCU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ActiproSoftware.Editors.Wpf.dll" size="817664">
+      <assemblyIdentity name="ActiproSoftware.Editors.Wpf" version="20.1.1.0" publicKeyToken="36FF2196AB5654B9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>AVkfNQ1jXiAvmiMY7CZWIuXK+E5idmHqA7swGMWhFCA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ActiproSoftware.Grids.Wpf.dll" size="422912">
+      <assemblyIdentity name="ActiproSoftware.Grids.Wpf" version="20.1.1.0" publicKeyToken="36FF2196AB5654B9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>RMRtas4Usz/012AvNqhSyIyH4GzxhGQehSVLdHPzSaE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ActiproSoftware.Navigation.Wpf.dll" size="333312">
+      <assemblyIdentity name="ActiproSoftware.Navigation.Wpf" version="20.1.1.0" publicKeyToken="36FF2196AB5654B9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9nZdQE2NgCYINqJI1Ifbvf55ztTQ6TwBtgTbzltUu2g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ActiproSoftware.Ribbon.Wpf.dll" size="775680">
+      <assemblyIdentity name="ActiproSoftware.Ribbon.Wpf" version="20.1.1.0" publicKeyToken="36FF2196AB5654B9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>uD64M1DawEQosA3WK3Btv15fGMScWq2zxQxK05pJbWc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ActiproSoftware.Shared.Wpf.dll" size="1654272">
+      <assemblyIdentity name="ActiproSoftware.Shared.Wpf" version="20.1.1.0" publicKeyToken="36FF2196AB5654B9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>EhJAqYJzNCM+0FSZa8JKrWpYq//Axo5L7jsWDtHUrwk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ActiproSoftware.Shell.Wpf.dll" size="231936">
+      <assemblyIdentity name="ActiproSoftware.Shell.Wpf" version="20.1.1.0" publicKeyToken="36FF2196AB5654B9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Rbg2mw/vQa4x3Djgp7Q67GkYyGMS3XSCHv0fw2M9VgQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ActiproSoftware.SyntaxEditor.Wpf.dll" size="1460224">
+      <assemblyIdentity name="ActiproSoftware.SyntaxEditor.Wpf" version="20.1.1.0" publicKeyToken="36FF2196AB5654B9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>zR3EZ7nujOgWuNtZDjA3coS9oa4xwoOfw9ugz7bLogw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ActiproSoftware.Text.Wpf.dll" size="491520">
+      <assemblyIdentity name="ActiproSoftware.Text.Wpf" version="20.1.1.0" publicKeyToken="36FF2196AB5654B9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>kGfbNi3kY4O1IK86EWqz01EVR3A/CBOpRTm5MOlaQgI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ActiproSoftware.Views.Wpf.dll" size="299008">
+      <assemblyIdentity name="ActiproSoftware.Views.Wpf" version="20.1.1.0" publicKeyToken="36FF2196AB5654B9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>S22lgNqBSVGLhrMd5MCqlW9ZCsTzpEQ8EFJXW+89q/E=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ActiproSoftware.Wizard.Wpf.dll" size="133120">
+      <assemblyIdentity name="ActiproSoftware.Wizard.Wpf" version="20.1.1.0" publicKeyToken="36FF2196AB5654B9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>sO6Up7oWNf6ai8+SD1/BGHxK7XCIXK9c8Ht4peafTOc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CustomControls.dll" size="10240">
+      <assemblyIdentity name="CustomControls" version="0.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>fV6fFyX+oMrkTGQk3cYTSKazWpmWJlpTLRz+KPXXXLE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FirstWf4Activity.dll" size="6656">
+      <assemblyIdentity name="FirstWf4Activity" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Hh1etc7BahqoDO7nSvseJ9XrsIGbNq2UiIDGKmfblag=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FirstWf4ActivityDesigner.dll" size="17920">
+      <assemblyIdentity name="FirstWf4ActivityDesigner" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>kPSBHAE1pCCRryi7M5ZlEGYhQcm/ZutZNF6FJQDHVPY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FluentWPF.dll" size="189952">
+      <assemblyIdentity name="FluentWPF" version="0.8.0.6" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>NygpD8HTy4TMnGUp868UIVslK/kahFWw27UNw25VYrY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Metaweave.CustomActivities.dll" size="6144">
+      <assemblyIdentity name="Metaweave.CustomActivities" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>QnH0BQWWFYDKUiak9ncGFlOVzsN8k9WYzRkNWMMFsOI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Metaweave.CustomActivities.Activities.dll" size="61952">
+      <assemblyIdentity name="Metaweave.CustomActivities.Activities" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>JM5xsEgZONvmx+ACcOQjR5ftjW4ZMXRwOTv+h5iIuBc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Metaweave.CustomActivities.Activities.Design.dll" size="102400">
+      <assemblyIdentity name="Metaweave.CustomActivities.Activities.Design" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>X/OUF8QZSPeza5RuOiLYNN2+zNA5sD+/6dAdYxWcauc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.VisualStudio.DesignTools.Extensibility.dll" size="139648">
+      <assemblyIdentity name="Microsoft.VisualStudio.DesignTools.Extensibility" version="16.5.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>7d6k1oYA1m1ToR6bupeRJCYZwKmEuHQFV/KYdzrBZ/o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySequenceActivity.RPAWAY.dll" size="5120">
+      <assemblyIdentity name="MySequenceActivity.RPAWAY" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>bAJbThVk4YtulZSm4pyphVxPNQRnrNZAbTxJ984ta3E=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySequenceActivity.RPAWAY.Design.dll" size="11776">
+      <assemblyIdentity name="MySequenceActivity.RPAWAY.Design" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>TbqiJeF4j83uKlm1Ad1M/Jh14fkeBMY5ukkGiQ8hPZc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="700336">
+      <assemblyIdentity name="Newtonsoft.Json" version="12.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>f5ErKKB8Im4L46z7L1fwUFOKugEA+h8L8sOfGh8dqBQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RPA Workbench.exe" size="6033344">
+      <assemblyIdentity name="RPA Workbench" version="1.0.0.3" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tWqRS6v6Uc+PIGTbVh3lhXGOtiOEBLr9NU3YvLkfpvw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CustomActivityTest\MySequenceActivity.RPAWAY.Design.dll" size="11776">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TbqiJeF4j83uKlm1Ad1M/Jh14fkeBMY5ukkGiQ8hPZc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="CustomActivityTest\MySequenceActivity.RPAWAY.dll" size="5120">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bAJbThVk4YtulZSm4pyphVxPNQRnrNZAbTxJ984ta3E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="CustomActivityTest\NewFolder1\ActiproSoftware.Docking.Wpf.dll" size="794624">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RlwbI2Rsg3DbJA0BP3yNPfaTMfQmOS2N9/qPUYcXNm4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="CustomActivityTest\NewFolder1\ActiproSoftware.Ribbon.Wpf.dll" size="771584">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FNpjrhOrBxfcUei7u7pBMbywKLzwqXO6QfjqfiqVnB8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="CustomActivityTest\NewFolder1\ActiproSoftware.Shared.Wpf.dll" size="1654272">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uOYZfBOuIGA1qBT6ISEEltd8R6REsnQjnO/CRDRcUe8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="CustomActivityTest\NewFolder1\FirstActivityTest.dll" size="8704">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HpUqF8rhAMsRnOtYsAGtJxoHo1Yxl54eb3buwk+PAxc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="External Test Dependancies\Interface Dependancies\FluentWPF.dll" size="189952">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NygpD8HTy4TMnGUp868UIVslK/kahFWw27UNw25VYrY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="External Test Dependancies\Metaweave Activities\Metaweave.CustomActivities.Activities.Design.dll" size="102400">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>X/OUF8QZSPeza5RuOiLYNN2+zNA5sD+/6dAdYxWcauc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="External Test Dependancies\Metaweave Activities\Metaweave.CustomActivities.Activities.dll" size="61952">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JM5xsEgZONvmx+ACcOQjR5ftjW4ZMXRwOTv+h5iIuBc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="External Test Dependancies\Metaweave Activities\Metaweave.CustomActivities.dll" size="6144">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QnH0BQWWFYDKUiak9ncGFlOVzsN8k9WYzRkNWMMFsOI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="External Test Dependancies\RPA-WAY Custom Activities\FirstWf4Activity.dll" size="6656">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Hh1etc7BahqoDO7nSvseJ9XrsIGbNq2UiIDGKmfblag=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="External Test Dependancies\RPA-WAY Custom Activities\FirstWf4ActivityDesigner.dll" size="17920">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kPSBHAE1pCCRryi7M5ZlEGYhQcm/ZutZNF6FJQDHVPY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Application Icons\Alecive-Flatwoken-Apps-Ide.ico" size="192675">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sDWG0cb5yrr1/erWxr6Jk5viOZw0RfQ3gsV0uT6nHY4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Toolwindow Icons\HierarchyLight.png" size="285">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>u9dFLVClBgUATVKrv4s+3bHZlTm9WVRI9P5cNKrF/1U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RPA Workbench.exe.config" size="1427">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5Oj+JQdRgBkWn8JDEQhWr3j07DoSCyfXgMJGMZkU4hc=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LENOVO-Y740\Ruwe" issuerKeyHash="ea8e200148966c164aa8a42568c293eb7051deed" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>hbJMCb0xzgd41LcZi+yOmc25xNh3crB6F+iLVEBLMrU=</DigestValue></Reference></SignedInfo><SignatureValue>KITlZkc/KtMS8F6shMlDQEb+eQ0RIeVax5A4XRD5krwVLMKopBuUeS+9/VuwDrSssjIixH8TRl4QcbY0SIRCiZb6WwO2qE1zTYsYpSee5qYniLu+DfVGgaUiCqFA+VF+kHqsou3vUqmyMRdm/EvL6AHoAbCFYDh9tIbfM/7OI7c=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qFNLoOSJAGORFLvdXZwwmdh0TRMVNTns6Du0jeCH5lmrp+BlKXGOlWidp16DBceKxKhtsV/Cih6LsrtN7ImB8DsdWgBZrlTD+gToVdaqIO1VN+/RKVgeHoaFtSUpq46aJJ7rJbKmDnQiESQx5R9fL3v256wc6yAnLSWpEbbj/L0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b5324b40548be8177ab07277d8c4b9cd998eec8b19b7d47807ce31bd094cb285" Description="" Url=""><as:assemblyIdentity name="RPA Workbench.exe" version="1.0.0.6" publicKeyToken="700a425da2df0183" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LENOVO-Y740\Ruwe</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>LF5mlm1k4zqlV0/hPiYerihAkpfT7jEpA62NaW2mG3A=</DigestValue></Reference></SignedInfo><SignatureValue>jJ2flCU3yp2y6e8q9Wx2EZdjFwhxWboGmr2Ezz2Rp/o74pA4fqe7ccvaNYSNzeZ/4hRDYaiQ6Nio9JqP8/UwVVg0yNr2VjffIGb5ztz4haxdudytdlK4MerMpxB/hPQOwygq1DrUvXOr+YJy2qnR5aMxu1qWe6xt7vivdzW9BaI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qFNLoOSJAGORFLvdXZwwmdh0TRMVNTns6Du0jeCH5lmrp+BlKXGOlWidp16DBceKxKhtsV/Cih6LsrtN7ImB8DsdWgBZrlTD+gToVdaqIO1VN+/RKVgeHoaFtSUpq46aJJ7rJbKmDnQiESQx5R9fL3v256wc6yAnLSWpEbbj/L0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQEa7B/CEQNZZHz9a36x5t6TANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAATABFAE4ATwBWAE8ALQBZADcANAAwAFwAUgB1AHcAZTAeFw0yMTAzMDQxMTQwMDhaFw0yMjAzMDQxNzQwMDhaMCsxKTAnBgNVBAMeIABMAEUATgBPAFYATwAtAFkANwA0ADAAXABSAHUAdwBlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCoU0ug5IkAY5EUu91dnDCZ2HRNExU1OezoO7SN4IfmWaun4GUpcY6VaJ2nXoMFx4rEqG2xX8KKHouyu03siYHwOx1aAFmuVMP6BOhV1qog7VU379EpWB4ehoW1JSmrjpoknuslsqYOdCIRJDHlH18ve/bnrBzrICctJakRtuP8vQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAF/pEKPJP7XBpmDWs1c/SfzTPyhhAwofY0+2rRI8lL0Hvrml8qfS0dvjh4AKzE46rHzW3vmpDcbrkoj/EwS8ogOJOzEHwlGzWk11+Kh+LIKv4uinCqmtcVHWpysc1Qr1HhIuOgUTHn2gEF5krOfVoTfBH0OvlyRPcbze+IW0vyG4</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
