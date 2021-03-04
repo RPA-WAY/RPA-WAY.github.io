@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <section name="RPA_WAY_Studio.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false"/>
+        </sectionGroup>
+    </configSections>
+    <connectionStrings />
+    <userSettings>
+        <RPA_WAY_Studio.Properties.Settings>
+            <setting name="ThemeType" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="IDE_WindowState" serializeAs="String">
+                <value>Minimized</value>
+            </setting>
+            <setting name="DefaultProjectPath" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="RecentDocuments" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="IDE_Serialization" serializeAs="String">
+                <value />
+            </setting>
+        </RPA_WAY_Studio.Properties.Settings>
+    </userSettings>
+<startup><supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2"/></startup></configuration>
